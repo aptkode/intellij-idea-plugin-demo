@@ -20,9 +20,10 @@
 
     <actions>
         <!-- Add your actions here -->
-        <group id="MyIdeaDemo.HelloAction" text="MyIdeaDemo" description="about my idea">
+        <group id="MyIdeaDemo.HelloAction" text="MyIdeaDemo" description="About my idea">
             <add-to-group group-id="MainMenu" anchor="last"/>
             <action class="com.aptkode.myideademo.HelloAction" id="MyIdeaDemo.Actions.HelloAction" text="Say Hello"/>
         </group>
     </actions>
+    <depends>org.jetbrains.idea.maven</depends>
 </idea-plugin>

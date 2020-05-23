@@ -24,7 +24,8 @@ compileTestKotlin {
 }
 
 intellij {
-    version '2018.3'
+    version '2020.1'
+    plugins 'maven'
 }
 
 patchPluginXml {
